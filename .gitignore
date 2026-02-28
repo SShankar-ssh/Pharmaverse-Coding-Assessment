@@ -32,3 +32,10 @@ google-services.json
 
 # Android Profiling
 *.hprof
+.Rproj.user
+
+# Other
+docs/
+Meta/
+doc/
+.tar.gz
