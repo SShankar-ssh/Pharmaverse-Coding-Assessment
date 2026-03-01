@@ -4,8 +4,9 @@
 # Location: ~/question_1_sdtm/01_create_ds_domain.R
 # Purpose : Create SDTM for disposition data
 #------------------------------------------------------------------------------#
-# Input Data :
-# Output Data:
+# Input Data : pharmaverseraw::ds_raw
+#              pharmaversesdtm::dm
+# Output Data: ds.csv
 #------------------------------------------------------------------------------#
 # Modification History
 #  01MAR2026 S Shankar
