@@ -11,7 +11,7 @@ logrx link to repository: https://github.com/pharmaverse/logrx
 User: r2881826
 File Name: 01_create_ds_domain.R
 File Path: /cloud/project/question_1_sdtm
-File HashSum: 36ed897c804624103271448c53b7611d64182ed7
+File HashSum: 026945bd0c940e35f00a6675d23dca172b9aa74d
 --------------------------------------------------------------------------------
 -                             Session Information                              -
 --------------------------------------------------------------------------------
@@ -115,6 +115,7 @@ File HashSum: 36ed897c804624103271448c53b7611d64182ed7
 --------------------------------------------------------------------------------
 -                               Masked Functions                               -
 --------------------------------------------------------------------------------
+function `ds_raw` from {package:pharmaverseraw} by .GlobalEnv
 function `problems` from {package:sdtm.oak} by package:readr
 function `%>%` from {package:dplyr} by package:janitor
 function `chisq.test` from {package:stats} by package:janitor
@@ -131,7 +132,7 @@ function `kronecker` from {package:base} by package:methods
 --------------------------------------------------------------------------------
 -                          Used Package and Functions                          -
 --------------------------------------------------------------------------------
-{!!! NOT FOUND !!!} install_and_load
+{.GlobalEnv} install_and_load
 {package:base} source, c, is.na, paste0, toupper
 {package:dplyr} mutate, if_else, case_when, select, left_join
 {package:janitor} %>%
@@ -141,17 +142,17 @@ function `kronecker` from {package:base} by package:methods
 --------------------------------------------------------------------------------
 -                         Program Run Time Information                         -
 --------------------------------------------------------------------------------
-Start time: 2026-03-01 07:38:57 UTC
-End time: 2026-03-01 07:38:57 UTC
-Run time: 0 seconds
+Start time: 2026-03-01 07:44:50 UTC
+End time: 2026-03-01 07:44:51 UTC
+Run time: 1 seconds
 --------------------------------------------------------------------------------
 -                             Errors and Warnings                              -
 --------------------------------------------------------------------------------
 Errors:
-	cannot open the connection
+	
 
 Warnings:
-	cannot open file 'functions.R': No such file or directory
+	
 --------------------------------------------------------------------------------
 -                         Messages, Output, and Result                         -
 --------------------------------------------------------------------------------
@@ -159,9 +160,27 @@ Messages:
 	
 Output:
 	
+	wrote 1.88kB in  0s, 213.23MB/s
+	                                                                                                                                                                                                            
+	wrote 1.00TB in  0s, 16.72TB/s
+	                                                                                                                                                                                                            
 
 Result:
-	NULL
+	# A tibble: 850 × 12
+	   STUDYID      DOMAIN USUBJID     DSSEQ DSTERM                DSDECOD               DSCAT              VISITNUM VISIT     DSDTC            DSSTDTC    DSSTDY
+	   <chr>        <chr>  <chr>       <int> <chr>                 <chr>                 <chr>                 <dbl> <chr>     <iso8601>        <date>      <int>
+	 1 CDISCPILOT01 DS     01-701-1015     1 FINAL LAB VISIT       FINAL LAB VISIT       OTHER EVENT              13 WEEK 26   2014-07-02T11:45 2014-07-02    182
+	 2 CDISCPILOT01 DS     01-701-1015     2 PROTOCOL COMPLETED    COMPLETED             DISPOSITION EVENT        13 WEEK 26   2014-07-02       2014-07-02    182
+	 3 CDISCPILOT01 DS     01-701-1015     3 RANDOMIZED            RANDOMIZED            PROTOCOL MILESTONE        3 BASELINE  2014-01-02       2014-01-02      1
+	 4 CDISCPILOT01 DS     01-701-1023     1 ADVERSE EVENT         ADVERSE EVENT         DISPOSITION EVENT         5 WEEK 4    2012-09-02       2012-09-02     29
+	 5 CDISCPILOT01 DS     01-701-1023     2 FINAL LAB VISIT       FINAL LAB VISIT       OTHER EVENT               5 WEEK 4    2012-09-02T10:15 2012-09-02     29
+	 6 CDISCPILOT01 DS     01-701-1023     3 FINAL RETRIEVAL VISIT FINAL RETRIEVAL VISIT OTHER EVENT             201 RETRIEVAL 2013-02-18       2013-02-18    198
+	 7 CDISCPILOT01 DS     01-701-1023     4 RANDOMIZED            RANDOMIZED            PROTOCOL MILESTONE        3 BASELINE  2012-08-05       2012-08-05      1
+	 8 CDISCPILOT01 DS     01-701-1028     1 FINAL LAB VISIT       FINAL LAB VISIT       OTHER EVENT              13 WEEK 26   2014-01-14T11:10 2014-01-14    180
+	 9 CDISCPILOT01 DS     01-701-1028     2 PROTOCOL COMPLETED    COMPLETED             DISPOSITION EVENT        13 WEEK 26   2014-01-14       2014-01-14    180
+	10 CDISCPILOT01 DS     01-701-1028     3 RANDOMIZED            RANDOMIZED            PROTOCOL MILESTONE        3 BASELINE  2013-07-19       2013-07-19      1
+	# ℹ 840 more rows
+	# ℹ Use `print(n = ...)` to see more rows
 --------------------------------------------------------------------------------
 -                               Log Output File                                -
 --------------------------------------------------------------------------------
