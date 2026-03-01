@@ -16,7 +16,7 @@
 ## ----r setup, message=FALSE, warning=FALSE, results='hold'--------------------
 source("functions.R")
 
-pkgs <- c("dplyr", "sdtm.oak", "pharmaverseraw", "janitor", "xlsx", "readr")
+pkgs <- c("dplyr", "sdtm.oak", "pharmaverseraw", "janitor", "readr")
 install_and_load(pkgs)
 
 ds_raw <- pharmaverseraw::ds_raw
