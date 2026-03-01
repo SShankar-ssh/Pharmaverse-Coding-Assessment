@@ -142,8 +142,8 @@ function `kronecker` from {package:base} by package:methods
 --------------------------------------------------------------------------------
 -                         Program Run Time Information                         -
 --------------------------------------------------------------------------------
-Start time: 2026-03-01 07:44:50 UTC
-End time: 2026-03-01 07:44:51 UTC
+Start time: 2026-03-01 08:12:18 UTC
+End time: 2026-03-01 08:12:19 UTC
 Run time: 1 seconds
 --------------------------------------------------------------------------------
 -                             Errors and Warnings                              -
@@ -160,9 +160,9 @@ Messages:
 	
 Output:
 	
-	wrote 1.88kB in  0s, 213.23MB/s
+	wrote 1.88kB in  0s, 207.62MB/s
 	                                                                                                                                                                                                            
-	wrote 1.00TB in  0s, 16.72TB/s
+	wrote 1.00TB in  0s, 14.15TB/s
 	                                                                                                                                                                                                            
 
 Result:
